@@ -1,0 +1,59 @@
+﻿@*@{
+    ViewBag.Title = "Home Page";
+}*@
+@*@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                
+            </hgroup>
+            
+        </div>
+    </section>
+}*@
+<div id="wrapper">
+<header>
+<div id="logo">
+      <a href="#">
+	    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6VUnmxXaEqnaGVefuonZbTtvF8DwhXysRt7Qkvh7dPQP9qnZU3gGiowhy" alt="img cv"/>
+	  </a>
+</div>
+</header>
+<nav>
+ <ul>
+     <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
+	 <li>@Html.ActionLink("About", "About", "Home")</li>
+	 <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
+	 <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<section id="greeting">
+<article>
+      <p>Hi, pleased to meet ye, I'm Bert</p>
+</article>
+</section>
+
+
+<div class="profilepic">
+     <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/062/3c2/06dc712.jpg" alt="profielfoto"/>
+</div>
+
+<div class="clearfix"></div>
+<footer>
+  <p>Generated with ASP .NET C#</p>
+  <div class="contactdata">
+    <p class="contactname"><a class="url" href="#">Bert Verleyen</a><p>
+    <p class="address">
+       <span class="street-address">Braemstraat 86</span><br/>
+	   <span class="postal-code">9050</span><br/>
+	   <span class="city">Ghent</span><br/>
+       <span class="region">East Flanders</span><br>
+       <span class="country-name">Belgium</span>
+    </p>
+    <p class="tel">+320472077741</p>
+   </div>
+</footer>
+</div>
+

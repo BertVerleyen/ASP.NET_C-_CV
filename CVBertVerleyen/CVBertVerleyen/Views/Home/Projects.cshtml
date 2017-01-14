@@ -1,0 +1,86 @@
+﻿@*@{
+    ViewBag.Title = "Projects";
+    Layout = "~/Views/Home/About.cshtml";
+}*@
+    <!--<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    
+</hgroup>-->
+<div id="wrapper">
+<header>
+<div id="logo">
+      <a href="#">
+	    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6VUnmxXaEqnaGVefuonZbTtvF8DwhXysRt7Qkvh7dPQP9qnZU3gGiowhy" alt="img cv"/>
+	  </a>
+</div>
+</header>
+<nav>
+    <ul>
+      <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li class="active">@Html.ActionLink("Projects", "Projects", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+     <div class="clearfix"></div>
+    </ul>
+</nav>
+
+<section id="projects">
+  <article>
+      <div class="title-page-article">
+	     <h2>Projects</h2>
+	  </div>
+	  
+      <div id="desc-projects">
+	     
+	      <ol type="1">
+		   <div class="cols-1-3">
+		    <li value="1">.NET, PHP, Java, Cobol, HTML personal profile websites  and own creative development: spring-fall 2017</li><br/>
+            <li>PHP-project in Drupal webshop zelfgekozen organisatie voor afstandsonderwijs: fall 2016</li><br/>
+			                                                                                                     
+            <li>PHP-project website about coffee products: overview, updating coffee types etc...: summer-fall 2016</li><br/>        
+			                                                                                                     
+           </div>
+		   <div class="cols-4-6">
+		    <li>Drupal-PHP project website Santeplus: patient files, doctor prescriptions, pharmacy and provisions. 
+			    Adding/ordering accessory in the webshop, implementing after sales service. 
+			                                                                                                      fall 2015-spring 2016</li><br/>
+			<li>Drupal-PHP project Valckenierstore: Adding/ordering accessory in the webshop, implementing after sales service. 							         
+			                                                                                                      fall 2015</li><br/>
+            <li>PHP internship project in Zend Framework at SurveyAnyPlace: updating, deleting, adding  survey/quiz questions and answers, also by search engine. 		         
+			                                                                                                      spring 2014</li><br/>
+	      </ol>																									  
+         </div>	
+		 
+      
+	 </div>
+	 
+   </article>
+ 
+  <article id="title-content-thesis">
+     <div class="title-page-article">
+	   <h2>Thesis</h2>
+	 </div>
+	 <div id="content-thesis">
+	 <p><span class="make-bold-cursive">Bachelorproef “Een vergelijkende studie tussen .NET en PHP”</span><br/>
+        <span class="underline-txt">Promotors</span>: Joeri Van Herreweghe en Bert Van Vreckem (09 243 33 33), joeri.vanherreweghe@hogent.be, bert.vanvreckem@hogent.be<br/> 
+        <span class="underline-txt"> Referenties</span>: Octavian Susnea, teamverantwoordelijke development, stagebegeleider (+32486775719); 
+                                                                             Stefan Debois, CEO Survey Anyplace, info@surveyanyplace.com</p>
+	 </div>
+  </article>	 
+</section>
+<div class="clearfix"></div>
+<footer>
+  <p>Generated with HTML5</p>
+  <div class="contactdata">
+    <p class="contactname"><a class="url" href="#">Bert Verleyen</a><p>
+    <p class="address">
+       <span class="street-address">Braemstraat 86</span><br/>
+	   <span class="postal-code">9050</span><br/>
+	   <span class="city">Ghent</span><br/>
+       <span class="region">East Flanders</span><br>
+       <span class="country-name">Belgium</span>
+    </p>
+    <p class="tel">+320472077741</p>
+   </div>
+</footer>
+</div>
